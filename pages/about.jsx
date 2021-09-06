@@ -20,8 +20,9 @@ function About() {
 			      <p className="description">
 			      	I'm Lorenz.
 			      </p>
+						<div className="panda"><img src="./panda.jpeg" /></div>
 		      </div>
-					<div className="panda"><img src="./panda.jpeg" /></div>
+
 	      </div>
 			</section>
 		</>
