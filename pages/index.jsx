@@ -15,7 +15,9 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 className="title">Hey, welcome to my portfolio!</h1>
+            <h1 className="title">Lorenz Mueller</h1>
+            <h1 className="title">| Web-Dev</h1>
+            <h2 className="title">Welcome to my portfolio</h2>
             <p className="description">During the upcoming weeks, I'll update my portfolio here.</p>
 
             <Link href="/contact"><a className="cta">Contact me!</a></Link>
