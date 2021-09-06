@@ -163,14 +163,14 @@ a[href] {
 }
 
 @keyframes panda-animation {
-from {width: 30%; box-shadow: 0px 0px 0px; transform:  rotateY(0deg) rotateZ(0deg);}
-to {width: 60%; box-shadow: 20px 20px 20px; transform: rotateY(360deg) rotateZ(360deg);}
+from {width: 30%; box-shadow: 0px 0px 0px; transform: rotateZ(0deg);}
+to {width: 60%; box-shadow: 20px 20px 20px; transform: rotateZ(360deg);}
 }
 
 .panda-image {
 	width: 30%;
 	box-shadow: 0px 0px 0px;
-	transform: rotateY(0deg) rotateZ(360deg);
+	transform: rotateZ(0deg);
 	animation-name: panda-animation;
 	animation-duration: 17s;
 	animation-fill-mode: forwards;
