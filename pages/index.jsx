@@ -22,7 +22,7 @@ function Home() {
           </div>
 
           <div className="image-wrapper">
-            <img src="./panda.jpeg" />
+            <img src="./panda.jpeg" className="panda-image"/>
           </div>
         </div>
       </section>
