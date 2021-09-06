@@ -3,6 +3,7 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
+	background: linear-gradient(to right, rgba(100, 135, 233, 0) 70%, rgba(100, 135, 233, 1))
 }
 
 a[href] {
@@ -84,6 +85,7 @@ a[href] {
 			font-size: 48px;
 			margin-top: 0;
 			margin-bottom: 10px;
+			text-shadow: 3px 3px 3px
 		}
 
 		.description {
@@ -151,4 +153,12 @@ a[href] {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+}
+
+.panda {
+	position: absolute;
+	left: 0;
+	top: 80%;
+	width: 100px;
+	height: 100px;
 }

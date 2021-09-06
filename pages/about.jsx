@@ -1,6 +1,8 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import Panda from '../public/panda.jpeg';
 
 function About() {
 	return (
@@ -19,6 +21,7 @@ function About() {
 			      	I'm Lorenz.
 			      </p>
 		      </div>
+					<div className="panda"><img src="./panda.jpeg" /></div>
 	      </div>
 			</section>
 		</>
